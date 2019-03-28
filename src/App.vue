@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">什么是grid布局？</router-link> 
+      <router-link to="/home">什么是grid布局？</router-link> 
       <router-link to="/about">基本概念</router-link>
       <router-link to="/browser">浏览器支持情况</router-link>
       <div>
