@@ -119,30 +119,32 @@
   </div>
 </template>
 <style lang="scss" scoped>
-.example1 {
-    grid-template-columns: 70px 70px 70px;
-    grid-template-rows: 70px 70px 70px;
-}
-.example2 {
-    grid-template-columns: 70px;
-    grid-template-rows: 100px;
-}
-.example3 {
-    // height: 200px;
-    grid-template-columns: 20% 30% 50%;
-    grid-template-rows: 30% 50%;
-    // grid-template-columns: 30px 20px 50px ;
-    // grid-template-rows: 130px 28px;
-}
-.example4 {
-    grid-template-columns: repeat(3,50px 20px 40px);
-    grid-template-rows: repeat(3,30px);
-}
-.example5 {
-    grid-template-columns: repeat(auto-fill,150px 90px);
-}
-.example6 {
-    grid-template-columns: 1fr 3fr 4fr;
+.about {
+    .example1 {
+        grid-template-columns: 70px 70px 70px;
+        grid-template-rows: 70px 70px 70px;
+    }
+    .example2 {
+        grid-template-columns: 70px;
+        grid-template-rows: 100px;
+    }
+    .example3 {
+        // height: 200px;
+        grid-template-columns: 20% 30% 50%;
+        grid-template-rows: 30% 50%;
+        // grid-template-columns: 30px 20px 50px ;
+        // grid-template-rows: 130px 28px;
+    }
+    .example4 {
+        grid-template-columns: repeat(3,50px 20px 40px);
+        grid-template-rows: repeat(3,30px);
+    }
+    .example5 {
+        grid-template-columns: repeat(auto-fill,150px 90px);
+    }
+    .example6 {
+        grid-template-columns: 1fr 3fr 4fr;
+    }
 }
 </style>
 

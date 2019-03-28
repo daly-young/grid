@@ -80,6 +80,7 @@ code {
 .about {
     height: 100%;
     overflow: auto;
+    padding-bottom: 30px;
     section {
         margin-top: 20px;
         display: grid;
